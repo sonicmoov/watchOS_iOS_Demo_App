@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		004DCBE32C6AECCF00C6E166 /* ExCollection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DCBE22C6AECCF00C6E166 /* ExCollection.swift */; };
+		004DCBE52C6AECDE00C6E166 /* DateFormatUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DCBE42C6AECDE00C6E166 /* DateFormatUtility.swift */; };
+		004DCBE82C6AED0D00C6E166 /* CoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DCBE72C6AED0D00C6E166 /* CoreDataRepository.swift */; };
+		004DCBEA2C6AF44300C6E166 /* CommunicationJsonConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DCBE92C6AF44300C6E166 /* CommunicationJsonConverter.swift */; };
+		004DCBEF2C6AF6D000C6E166 /* Work+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DCBED2C6AF6D000C6E166 /* Work+CoreDataClass.swift */; };
+		004DCBF12C6AF91D00C6E166 /* WatchToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00A571322C64BE660004598F /* WatchToDoApp.xcdatamodeld */; };
+		004DCBF22C6AF92100C6E166 /* Work+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DCBED2C6AF6D000C6E166 /* Work+CoreDataClass.swift */; };
+		004DCBF32C6AF9DE00C6E166 /* CoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DCBE72C6AED0D00C6E166 /* CoreDataRepository.swift */; };
+		004DCBF42C6B014300C6E166 /* CommunicationJsonConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DCBE92C6AF44300C6E166 /* CommunicationJsonConverter.swift */; };
+		004DCBF62C6B023400C6E166 /* CommunicationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DCBF52C6B023400C6E166 /* CommunicationKey.swift */; };
+		004DCBF72C6B023D00C6E166 /* CommunicationKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004DCBF52C6B023400C6E166 /* CommunicationKey.swift */; };
 		00A5710F2C64BE480004598F /* WatchToDoAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A5710E2C64BE480004598F /* WatchToDoAppApp.swift */; };
 		00A571112C64BE480004598F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A571102C64BE480004598F /* ContentView.swift */; };
 		00A571132C64BE4A0004598F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A571122C64BE4A0004598F /* Assets.xcassets */; };
@@ -16,6 +27,9 @@
 		00A571232C64BE4A0004598F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A571222C64BE4A0004598F /* ContentView.swift */; };
 		00A571252C64BE4A0004598F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A571242C64BE4A0004598F /* Assets.xcassets */; };
 		00A571282C64BE4A0004598F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00A571272C64BE4A0004598F /* Preview Assets.xcassets */; };
+		00A571342C64BE660004598F /* WatchToDoApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 00A571322C64BE660004598F /* WatchToDoApp.xcdatamodeld */; };
+		00A571382C64BF430004598F /* WatchCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A571372C64BF430004598F /* WatchCommunicationManager.swift */; };
+		00A5713B2C64BF6F0004598F /* iOSCommunicationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A5713A2C64BF6F0004598F /* iOSCommunicationManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +57,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		004DCBE22C6AECCF00C6E166 /* ExCollection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExCollection.swift; sourceTree = "<group>"; };
+		004DCBE42C6AECDE00C6E166 /* DateFormatUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatUtility.swift; sourceTree = "<group>"; };
+		004DCBE72C6AED0D00C6E166 /* CoreDataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataRepository.swift; sourceTree = "<group>"; };
+		004DCBE92C6AF44300C6E166 /* CommunicationJsonConverter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationJsonConverter.swift; sourceTree = "<group>"; };
+		004DCBED2C6AF6D000C6E166 /* Work+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Work+CoreDataClass.swift"; sourceTree = "<group>"; };
+		004DCBF52C6B023400C6E166 /* CommunicationKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunicationKey.swift; sourceTree = "<group>"; };
 		00A5710B2C64BE480004598F /* WatchToDoApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchToDoApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A5710E2C64BE480004598F /* WatchToDoAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchToDoAppApp.swift; sourceTree = "<group>"; };
 		00A571102C64BE480004598F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +73,9 @@
 		00A571222C64BE4A0004598F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		00A571242C64BE4A0004598F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		00A571272C64BE4A0004598F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		00A571332C64BE660004598F /* WatchToDoApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WatchToDoApp.xcdatamodel; sourceTree = "<group>"; };
+		00A571372C64BF430004598F /* WatchCommunicationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCommunicationManager.swift; sourceTree = "<group>"; };
+		00A5713A2C64BF6F0004598F /* iOSCommunicationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOSCommunicationManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +96,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		004DCBE12C6AECC200C6E166 /* Extension&Utility */ = {
+			isa = PBXGroup;
+			children = (
+				004DCBE22C6AECCF00C6E166 /* ExCollection.swift */,
+				004DCBE42C6AECDE00C6E166 /* DateFormatUtility.swift */,
+				004DCBE92C6AF44300C6E166 /* CommunicationJsonConverter.swift */,
+			);
+			path = "Extension&Utility";
+			sourceTree = "<group>";
+		};
+		004DCBE62C6AECEA00C6E166 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				00A5710E2C64BE480004598F /* WatchToDoAppApp.swift */,
+				00A571102C64BE480004598F /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		004DCBF82C6B1C8800C6E166 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				004DCBF52C6B023400C6E166 /* CommunicationKey.swift */,
+				004DCBED2C6AF6D000C6E166 /* Work+CoreDataClass.swift */,
+				00A571322C64BE660004598F /* WatchToDoApp.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		00A571022C64BE480004598F = {
 			isa = PBXGroup;
 			children = (
@@ -94,9 +146,11 @@
 		00A5710D2C64BE480004598F /* WatchToDoApp */ = {
 			isa = PBXGroup;
 			children = (
-				00A5710E2C64BE480004598F /* WatchToDoAppApp.swift */,
-				00A571102C64BE480004598F /* ContentView.swift */,
 				00A571122C64BE4A0004598F /* Assets.xcassets */,
+				004DCBE12C6AECC200C6E166 /* Extension&Utility */,
+				004DCBE62C6AECEA00C6E166 /* View */,
+				004DCBF82C6B1C8800C6E166 /* Model */,
+				00A571392C64BF470004598F /* Repository */,
 				00A571142C64BE4A0004598F /* Preview Content */,
 			);
 			path = WatchToDoApp;
@@ -115,6 +169,7 @@
 			children = (
 				00A571202C64BE4A0004598F /* WatchToDoAppApp.swift */,
 				00A571222C64BE4A0004598F /* ContentView.swift */,
+				00A5713A2C64BF6F0004598F /* iOSCommunicationManager.swift */,
 				00A571242C64BE4A0004598F /* Assets.xcassets */,
 				00A571262C64BE4A0004598F /* Preview Content */,
 			);
@@ -127,6 +182,15 @@
 				00A571272C64BE4A0004598F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		00A571392C64BF470004598F /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				00A571372C64BF430004598F /* WatchCommunicationManager.swift */,
+				004DCBE72C6AED0D00C6E166 /* CoreDataRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,8 +295,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004DCBE32C6AECCF00C6E166 /* ExCollection.swift in Sources */,
 				00A571112C64BE480004598F /* ContentView.swift in Sources */,
+				00A571382C64BF430004598F /* WatchCommunicationManager.swift in Sources */,
 				00A5710F2C64BE480004598F /* WatchToDoAppApp.swift in Sources */,
+				00A571342C64BE660004598F /* WatchToDoApp.xcdatamodeld in Sources */,
+				004DCBE52C6AECDE00C6E166 /* DateFormatUtility.swift in Sources */,
+				004DCBF72C6B023D00C6E166 /* CommunicationKey.swift in Sources */,
+				004DCBEA2C6AF44300C6E166 /* CommunicationJsonConverter.swift in Sources */,
+				004DCBEF2C6AF6D000C6E166 /* Work+CoreDataClass.swift in Sources */,
+				004DCBE82C6AED0D00C6E166 /* CoreDataRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,8 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004DCBF62C6B023400C6E166 /* CommunicationKey.swift in Sources */,
+				004DCBF42C6B014300C6E166 /* CommunicationJsonConverter.swift in Sources */,
 				00A571232C64BE4A0004598F /* ContentView.swift in Sources */,
+				00A5713B2C64BF6F0004598F /* iOSCommunicationManager.swift in Sources */,
 				00A571212C64BE4A0004598F /* WatchToDoAppApp.swift in Sources */,
+				004DCBF32C6AF9DE00C6E166 /* CoreDataRepository.swift in Sources */,
+				004DCBF22C6AF92100C6E166 /* Work+CoreDataClass.swift in Sources */,
+				004DCBF12C6AF91D00C6E166 /* WatchToDoApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +607,20 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		00A571322C64BE660004598F /* WatchToDoApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				00A571332C64BE660004598F /* WatchToDoApp.xcdatamodel */,
+			);
+			currentVersion = 00A571332C64BE660004598F /* WatchToDoApp.xcdatamodel */;
+			name = WatchToDoApp.xcdatamodeld;
+			path = WatchToDoApp/Model/WatchToDoApp.xcdatamodeld;
+			sourceTree = SOURCE_ROOT;
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 00A571032C64BE480004598F /* Project object */;
 }
